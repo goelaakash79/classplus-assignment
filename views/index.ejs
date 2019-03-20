@@ -1,0 +1,59 @@
+<% include partials/header %>
+
+<div class="conatiner-fluid">
+    <div class="container mt-4">
+        <div class="jumbotron header">
+            <h3 class="title">Weather Ahead</h3>
+            <p class="desc">We always keep you ahead! Check for regular weather updates and be ahead</p>
+            <form action="/" method="post">
+                <div class="form-group searchplace__div">
+                    <input type="text" class="col-lg-4 form-control searchplace" id="searchplace" placeholder="Search places">
+                </div>
+            </form>
+        </div>
+
+        <div class="jumbotron weather__div">
+            <h3 class="title" style="color: #A36AFE;">Weather Conditions</h3>
+            <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="filler"></div>
+                        <h4>Today</h4>
+                        <hr>
+                        <p>temperature <br> humidity <br> precipitation</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="filler"></div>
+                        <h4>Tomorrow</h4>
+                        <hr>
+                        <p>temperature <br> humidity <br> precipitation</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="filler"></div>
+                        <h4>Next day</h4>
+                        <hr>
+                        <p>temperature <br> humidity <br> precipitation</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="filler"></div>
+                        <h4>Next day</h4>
+                        <hr>
+                        <p>temperature <br> humidity <br> precipitation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<% include partials/footer %>
